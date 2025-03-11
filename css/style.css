@@ -22,5 +22,143 @@ body{
 }
 .menu a:hover{
     background-color: black;
-    color: white
+    color: white;
+}
+.header-sec2 a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    padding: 3px;
+    color: white;
+}
+.logo_securisys{
+    width: 230px;
+}
+.header-sec2-text{
+    margin-left: 500px;
+    margin-top: -45px;
+}
+.header-sec2{
+    background-color: orangered;
+    padding: 18px;
+    padding-left: -100px;
+}
+.header-sec2 a:hover{
+    background-color: black;
+    color: white;
+}
+/* Slider styles */
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slider-content {
+    background: url('../img/secursys-image1.jpg') center/cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.slider-text {
+    color: white;
+    max-width: 600px;
+}
+
+.slider-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn-savoir-plus {
+    display: inline-block;
+    background-color: #0066ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(to bottom, #6a11cb, #2575fc);
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    color: white;
+}
+
+.btn-newsletter {
+    display: block;
+    background: #ff8c00;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar-link {
+    background: #0099ff;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
