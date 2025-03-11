@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.header{
+    padding: 30px;
+    position: fixed;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+}
+.menu ul a{
+    color: white;
+    font-size: 30px;
+}
+.menu a:hover{
+    background-color: black;
+    color: white
+}
