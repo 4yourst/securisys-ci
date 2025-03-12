@@ -1,4 +1,4 @@
-<<<<<<<<< Temporary merge branch 1
+
 body{
     margin: 0;
 }
@@ -50,9 +50,6 @@ body{
     color: white;
 }
 /* Slider styles */
-=========
-
->>>>>>>>> Temporary merge branch 2
 .slider-container {
     position: relative;
     width: 100%;
@@ -168,7 +165,6 @@ body{
     text-align: center;
     margin-bottom: 10px;
 }
-<<<<<<<<< Temporary merge branch 1
 
 .services-section {
     display: flex;
@@ -284,7 +280,6 @@ body{
     padding: 10px;
     border-top: 1px solid #444;
 }
-=========
 body{
     margin: 0;
 }
@@ -311,4 +306,3 @@ body{
     background-color: black;
     color: white;
 }
->>>>>>>>> Temporary merge branch 2
