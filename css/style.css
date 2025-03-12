@@ -1,4 +1,31 @@
+body{
+    margin: 0;
+}
+.header{
+    padding: 30px;
+    position: fixed;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+}
+.menu ul a{
+    color: white;
+    font-size: 30px;
+}
+.menu a:hover{
+    background-color: black;
+    color: white
+}
 
+/* Slider styles */
 .slider-container {
     position: relative;
     width: 100%;
@@ -54,9 +81,7 @@
     right: 0;
 }
 
-/* Sidebar styles */
 .sidebar {
-    position: fixed;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -86,6 +111,7 @@
 .social-icons a {
     color: white;
     font-size: 24px;
+    align-items: center;
 }
 
 .contact-info {
@@ -95,14 +121,15 @@
 .contact-info div {
     margin-bottom: 10px;
     display: flex;
-    align-items: center;
     gap: 10px;
 }
 
 .sidebar-links {
-    display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 50px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 .sidebar-link {
@@ -112,30 +139,4 @@
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-}
-body{
-    margin: 0;
-}
-.header{
-    padding: 30px;
-    position: fixed;
-}
-.menu li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 20px;
-    text-align: center;
-}
-.menu{
-    text-align: center;
-    background-color: blue;
-    padding: 20px;
-}
-.menu ul a{
-    color: white;
-    font-size: 30px;
-}
-.menu a:hover{
-    background-color: black;
-    color: white;
 }
